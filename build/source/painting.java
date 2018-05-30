@@ -65,10 +65,10 @@ class Dot {
     size = random(50, 100);
 
     // pick random rotation strength
-    rotate = random(0.05f);
+    rotate = random(0.2f);
 
     // pick a random speed or movement
-    speed = random(2, 5);
+    speed = random(5, 10);
 
     // create random velocity vector and set its speed
     vel = PVector.random2D().setMag(speed);
